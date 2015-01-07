@@ -1,0 +1,42 @@
+<ion-view view-title="Browse">
+    <ion-content>
+        <div class="list card">
+            <div class="item item-avatar">
+                <img src="img/ionic.png">
+
+                <h2>皓眸IT</h2>
+
+                <p>www.haomou.net</p>
+            </div>
+            <div class="item item-body">
+                <img class="full-image" src="{{imgSrc}}">
+
+                <p>
+                    click select button below（点击下面选择图片的按钮，选择你要展示的图片）
+                </p>
+
+                <p>
+                    <a href="#" class="subdued">1 Like</a>
+                    <a href="#" class="subdued">5 Comments</a>
+                </p>
+            </div>
+            <div class="item tabs tabs-secondary tabs-icon-left">
+                <a class="tab-item" href="#">
+                    <i class="icon ion-thumbsup"></i>
+                    Like
+                </a>
+                <a class="tab-item" href="#">
+                    <i class="icon ion-chatbox"></i>
+                    Comment
+                </a>
+                <a class="tab-item" href="#">
+                    <i class="icon ion-share"></i>
+                    Share
+                </a>
+            </div>
+        </div>
+        <button class="button button-full button-positive" ng-click="pickImage()">
+            select（选择图片）
+        </button>
+    </ion-content>
+</ion-view>
